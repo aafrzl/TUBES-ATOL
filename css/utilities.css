@@ -1,0 +1,104 @@
+/* Utilities */
+* {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #ffffff;
+  padding-bottom: 1rem;
+}
+footer {
+  font-weight: 300;
+}
+:root {
+  --bg-orange: #fa9151;
+}
+.bg-orange,
+.btn-orange {
+  background: var(--bg-orange);
+}
+.text-orange {
+  color: var(--bg-orange);
+}
+.bg-orange-sm {
+  background: #efac84;
+}
+::placeholder,
+input[type='text'] {
+  font-size: 0.6rem !important;
+}
+.sct-title {
+  font-size: 0.1.1rem;
+}
+.fw-300 {
+  font-weight: 300;
+}
+.fw-400 {
+  font-weight: 400;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.font-xsm {
+  font-size: 0.45rem !important;
+}
+.font-sm {
+  font-size: 0.65rem !important;
+}
+.font-md {
+  font-size: 0.8rem !important;
+}
+.hero {
+  width: 100px;
+  height: 100px;
+}
+.subtitle {
+  font-size: 0.75rem;
+  font-weight: 300;
+}
+.title {
+  font-size: 0.9rem;
+}
+.list-style-none li {
+  list-style: none;
+}
+.recipe-card {
+  width: 47%;
+  border-radius: 8px;
+  line-height: 0.95rem;
+}
+.btn-effect {
+  transition: 0.3s;
+}
+.btn-active {
+  transition: 0.3s;
+  background: #ca761b !important;
+}
+.break-word {
+  word-wrap: break-word !important;
+}
+.btn-effect:active {
+  backdrop-filter: opacity(1) brightness(2);
+}
+.link:active {
+  color: salmon !important;
+}
+
+[data-role='delete-button'] {
+  width: auto;
+  background: rgba(0, 0, 0, 0.5);
+  right: 5px;
+  top: 5px;
+  backdrop-filter: blur(4px);
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.none-scrollbar::-webkit-scrollbar {
+  display: none !important;
+}
